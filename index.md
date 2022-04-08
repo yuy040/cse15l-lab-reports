@@ -15,6 +15,7 @@
 3. Three
 
 Horizontal rule:
+
 ***
 
 `Inline code` with backticks
