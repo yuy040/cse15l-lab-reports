@@ -62,3 +62,5 @@ Here is what I did:\
 ![OptimizingRemoteRunning](OptimizingRemoteRunning.png)
 
 In my example, I managed to copy, compile, and run the file on the server in one line.
+
+**Have fun!**
