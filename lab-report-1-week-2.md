@@ -1,9 +1,9 @@
 # Lab Report 1 Week 2
 ## Installing Visual Studio Code
-Go to the offcial [Visual Studio Code](https://code.visualstudio.com) and click the "Download" button.
+Go to the offcial [Visual Studio Code](https://code.visualstudio.com) and click the "Download" button.\
 ![VScodePage](VScodePage.png)
 
-Follow the steps in the installation package. When you install successfully, open Visual Studio Code and you should see a page like this:
+Follow the steps in the installation package. When you install successfully, open Visual Studio Code and you should see a page like this:\
 ![VScode](VScode.png)
 
 ## Remotely Connecting
@@ -13,7 +13,7 @@ Open a terminal in VScode and type the following code (replace "zz" with your pe
 
 Type "yes" when you are asked "Are you sure you want to continue connecting" and then type your password. Now, your personal computer is connected to UCSD CSE server.
 
-When you are connected to the server successfully, you should see a login welcoming message, CPU usage, cluster status, and login time like below:
+When you are connected to the server successfully, you should see a login welcoming message, CPU usage, cluster status, and login time like below:\
 ![RemotelyConnecting](RemotelyConnecting.png)
 
 ## Trying Some Commands
@@ -26,7 +26,7 @@ These are some commands you can try yourself in the terminal:
 * `mkdir`
 * `cp`
 
-Here is an exemple of my running result of `ls` command:
+Here is an exemple of my running result of `ls` command:\
 ![TryingSomeCommands](TryingSomeCommands.png)
 
 Tip: You can use up-arrow to recall your previous command, which is a cool feature that saves you effort.
@@ -36,7 +36,7 @@ To make use of our online server, you need to copy files to the server first. To
 
 `scp fileName.java cs15lsp22zz@ieng6.ucsd.edu:~/`
 
-I moved a file called `whereAmI.java` and moved it with `scp` command:
+I moved a file called `whereAmI.java` and moved it with `scp` command:\
 ![scpCommands](scpCommand.png)
 
 ## Setting an SSH Key
@@ -52,13 +52,15 @@ Your private key will be saved in `/Users/<user-name>/.ssh/id_rsa`. Your public 
 
 Then, copy the PUBLIC (not *private*) key to the `.ssh` directory of the server.
 
-In my screenshot, you can see that I no longer need password.
+In my screenshot, you can see that I no longer need password.\
 ![Key](Key.png)
 
 ## Optimizing Remote Running
 When you make a local edit to a file, upload it to the server, and run it, you need to type several lines to achieve that. However, it is actually possible to perform several commands in one line.
 
-Here is what I did:
+Here is what I did:\
 ![OptimizingRemoteRunning](OptimizingRemoteRunning.png)
 
 In my example, I managed to copy, compile, and run the file on the server in one line.
+
+**Have fun!**
