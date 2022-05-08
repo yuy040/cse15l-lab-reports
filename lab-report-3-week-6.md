@@ -1,4 +1,4 @@
-# Lab Report 1 Week 2
+# Lab Report 3 Week 6
 ## Streamlining ssh Configuration
 Here is screenshot of my `.ssh/config` file, and I edited it with VScode.\
 ![Config](Config.png)
