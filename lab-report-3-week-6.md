@@ -27,7 +27,7 @@ I used the command `scp -r . ieng6:markdown-parse` to copy the whole `markdown-p
 ![Dir1](Dir1.png)
 ![Dir2](Dir2.png)
 
-I logged into the remote server, and then I compiled and ran the file:
+I logged into the remote server, and then I compiled and ran the file successfully:
 ![Running](Running.png)
 
 I combined all command in a line, and here is my result:
