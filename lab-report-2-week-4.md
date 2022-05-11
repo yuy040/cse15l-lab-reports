@@ -42,4 +42,4 @@ Symptom of the failure-inducing input:
 
 The input lacks the perentheses in the correct link format. The symptom of out of bounds occurs because both `openParen` and `closeParen` are both -1 when there are no perentheses.
 
-To fix the bug, I added a statement to determine whether `openParen` or `closeParen` is -1. If it is, terminate the loop with `break` statement.
+To fix the bug, I added a statement to determine whether `openParen` or `closeParen` is -1. If it is, terminate the loop with `break` statement. Now the program works correctly.
