@@ -1,29 +1,8 @@
-# CSE 15L
-## Team 5
-**Yufan Yang**\
-*Thursday*\
-[Canvas](https://canvas.ucsd.edu)\
-![Image](https://commonmark.org/help/images/favicon.png)
-> Hello World!
+# CSE 15L Lab Reports
+## Yufan Yang
 
-* Java
-* C++
-* Python
+[Lab Report 1 Week 2](https://yuy040.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
-1. One
-2. Two
-3. Three
+[Lab Report 2 Week 4](https://yuy040.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
-Horizontal rule:
-
-***
-
-`Inline code` with backticks
-
-```
-# code block
-print '3 backticks or'
-print 'indent 4 spaces'
-```
-
-The End!
+[Lab Report 3 Week 6](https://yuy040.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
