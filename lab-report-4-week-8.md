@@ -1,8 +1,8 @@
 # Lab Report 4 Week 8
-## Links to Repositories:
+## Links to Repositories
 Here is [the link to my repository](https://github.com/yuy040/markdown-parser) and [the link to the repository I reviewed](https://github.com/nathom/markdown-parser).
 
-## Test 1:
+## Test 1
 ![Test1](Test1.png)
 The expected output should be:\
 ["`google.com", "google.com", "ucsd.edu"]
@@ -18,7 +18,7 @@ The test in the implementation I revealed did not pass either:
 
 I think a small code change will make the program work. I can find the index of the first and second backsticks. If the first one is before the open bracket and the second one is before the close bracket, then the link should not be included.
 
-## Test 2:
+## Test 2
 ![Test2](Test2.png)
 The expected output should be:\
 ["a.com", "a.com(())", "example.com"]
@@ -34,7 +34,7 @@ The test in the implementation I revealed did not pass either:
 
 I think a small code change will make the program work. I can find the index of all close perentheses. Then, use the index of the last close perenthesis as the end of the link so that all other close perentheses can be included as part of the link.
 
-## Test 3:
+## Test 3
 ![Test3](Test3.png)
 The expected output should be:\
 ["https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule"]
